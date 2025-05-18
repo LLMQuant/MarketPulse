@@ -1,0 +1,14 @@
+# 全局配置
+kafka:
+  broker: localhost:9092
+  topics:
+    raw_events: raw-events
+    analysis: analysis
+postgres:
+  dsn: postgresql://user:pass@localhost:5432/marketpulse
+push:
+  slack_webhook: ${SLACK_WEBHOOK}
+analysis:
+  impact_threshold: 0.7
+openai:
+  model: gpt-3.5-turbo   # or gpt-4o-mini

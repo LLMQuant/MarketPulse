@@ -1,0 +1,6 @@
+# Add service-specific dependencies here
+openai
+confluent-kafka
+psycopg2-binary
+PyYAML
+python-dotenv

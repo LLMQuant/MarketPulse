@@ -1,0 +1,4 @@
+# Add service-specific dependencies here
+confluent-kafka
+requests
+python-dotenv

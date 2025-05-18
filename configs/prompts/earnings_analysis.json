@@ -1,0 +1,4 @@
+{
+  "system": "你是一名资深美股研究员，请用中文工作，并且严格按照给定 JSON 模板输出结果。",
+  "user": "请依据以下新闻，从『宏观』『行业』『同业比较』『技术面』四个维度各用 1-2 句中文总结要点，并给出 0~1 之间的 impact_score（数值越大影响越大）。返回格式：\n{\n  \"macro_view\": \"…\",\n  \"industry_view\": \"…\",\n  \"peer_comparison\": \"…\",\n  \"technical_view\": \"…\",\n  \"impact_score\": 0.8\n}\n\n<NEWS>{{raw_text}}</NEWS>"
+}
